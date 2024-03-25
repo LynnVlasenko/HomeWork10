@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C6B3E1E2BB1CBC400A002FA /* SignUpView+KeyboardTypeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6B3E1D2BB1CBC400A002FA /* SignUpView+KeyboardTypeExtension.swift */; };
 		CEAE4D7A2BB05A8500B8E545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE4D792BB05A8500B8E545 /* AppDelegate.swift */; };
 		CEAE4D7C2BB05A8500B8E545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE4D7B2BB05A8500B8E545 /* SceneDelegate.swift */; };
 		CEAE4D812BB05A8500B8E545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAE4D7F2BB05A8500B8E545 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C6B3E1D2BB1CBC400A002FA /* SignUpView+KeyboardTypeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpView+KeyboardTypeExtension.swift"; sourceTree = "<group>"; };
 		CEAE4D762BB05A8500B8E545 /* Lesson10HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson10HW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAE4D792BB05A8500B8E545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAE4D7B2BB05A8500B8E545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				CEAE4D952BB05C3300B8E545 /* SignUpViewController.swift */,
 				CEAE4D9D2BB06CAB00B8E545 /* SignUpViewController+Notification.swift */,
 				CEAE4D982BB05CE600B8E545 /* SignUpView.swift */,
+				6C6B3E1D2BB1CBC400A002FA /* SignUpView+KeyboardTypeExtension.swift */,
 			);
 			path = SignUpScreen;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAE4D992BB05CE600B8E545 /* SignUpView.swift in Sources */,
+				6C6B3E1E2BB1CBC400A002FA /* SignUpView+KeyboardTypeExtension.swift in Sources */,
 				CEAE4D962BB05C3300B8E545 /* SignUpViewController.swift in Sources */,
 				CEAE4D7A2BB05A8500B8E545 /* AppDelegate.swift in Sources */,
 				CEAE4D9E2BB06CAB00B8E545 /* SignUpViewController+Notification.swift in Sources */,
