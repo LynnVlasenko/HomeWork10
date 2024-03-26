@@ -34,7 +34,6 @@ extension SignUpViewController {
 
     @objc func keyboardWillHide(notification: NSNotification){
          print("keyboardWillHide")
-        let keyboardHeight = keyboardHeight(from: notification)
         scrollView.contentInset.bottom = 0
     }
     
