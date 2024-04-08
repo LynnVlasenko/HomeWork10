@@ -5,9 +5,9 @@
 //  Created by Алина Власенко on 26.03.2024.
 //
 
-import Foundation
+import UIKit
 
-extension SignUpViewController {
+extension SignUpViewController: UITextFieldDelegate {
     
     // text fields restrictions setup
     func setupCardNumberTextField() {
@@ -20,4 +20,23 @@ extension SignUpViewController {
         cvvTextFieldDelegate.textDelegate = LimitTextLenghtToThreeHendler()
     }
     
+    
+    func setUpTextFieldDelegats() {
+         [contentView.emailNameTextField, contentView.passwordTextField, contentView.confirmPasswordTextField,
+          contentView.cvvTextField, contentView.cardNumberTextField, contentView.firstNameTextField,
+          contentView.lastNameTextField, contentView.countryTextField, contentView.cityTextField,
+          contentView.addressTextField, contentView.expDateTextField].forEach({ $0.delegate = self })
+        
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        textField.returnKeyType = .done
+        print("textFieldDidBeginEditing")
+    }
 }

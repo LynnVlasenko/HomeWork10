@@ -28,6 +28,8 @@ class SignUpViewController: UIViewController {
         // text fields restrictions setup
         setupCardNumberTextField()
         setupCvvTextField()
+        
+        setUpTextFieldDelegats()
     }
 }
 
